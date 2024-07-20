@@ -8,7 +8,7 @@ on:
 
 env:
   # Setting an environment variable with the value of a configuration variable
-  downloadurl: ${{ vars.DOWNLOADURL }}
+  downloadurl: "https://ipdb.api.030101.xyz/?type=proxy"
 
 permissions:
   contents: write
