@@ -35,6 +35,7 @@ jobs:
         wget -N -t 1 -nd -np -npH -e 'timestamping=off' "${{ secrets.DOWNLOAD_URL }}" -O ip.zip
         unzip ip.zip -d ./ips
         rm ip.zip
+
     - name: Set up Python
       uses: actions/setup-python@main
       with:
