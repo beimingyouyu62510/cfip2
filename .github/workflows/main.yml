@@ -8,8 +8,7 @@ on:
 
 env:
   # Setting an environment variable with the value of a configuration variable
-  downloadurl: "https://zip.baipiao.eu.org"
-
+  downloadurl: ${{ vars.DOWNLOADURL }}
 permissions:
   contents: write
       
